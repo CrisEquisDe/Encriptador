@@ -17,10 +17,9 @@ namespace Encriptador
             InitializeComponent();
         }
 
-        String cadena = String.Empty;
         private void btnEncriptar_Click(object sender, EventArgs e)
         {
-
+            txtCadenaEncriptada.Text = txtCadenaGenerada.Text;
         }
 
         private void txtFolioOrigen_Leave(object sender, EventArgs e)
